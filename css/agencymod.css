@@ -629,10 +629,10 @@ footer ul.quicklinks {
   text-transform: uppercase;
   text-transform: none;
 }
-/*#email-address {
-  color: #222222;
-  display: flex;
-}*/
+.headshot img{
+  height:250px;
+  margin-bottom: 20px;
+}
 ul.social-buttons {
   margin-bottom: 0;
   display: flex;
