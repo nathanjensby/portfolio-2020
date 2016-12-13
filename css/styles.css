@@ -3,4 +3,18 @@
   border-style: solid;
   border-width: thin;
   border-color: #fed136;
+  margin-bottom: 40px;
+}
+
+#resume-content {
+  display: flex;
+  flex-direction: column;
+}
+
+#black-white {
+  color: black;
+}
+
+#black-white:hover {
+  color: white;
 }

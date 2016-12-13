@@ -20,6 +20,7 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
@@ -241,10 +242,15 @@
           <div class="row text-center">
               <div class="col-lg-12 text-center">
                   <h2 class="section-heading">Resume</h2>
-                  <a onclick="window.open('img/resumev2.pdf', '_blank', 'fullscreen=yes'); return false;">
-                  <img class="img-responsive resume" src="img/resumev2.png" alt="resume" border="1"/>
-                  </a>
+                  <div id="resume-content" class="col-lg-12 text-center">
+                    <a onclick="window.open('img/resumev2.pdf', '_blank', 'fullscreen=yes'); return false;">
+                    <img class="img-responsive resume" src="img/resumev2.png" alt="resume" border="1"/>
+                    </a>
 
+                    <a onclick="window.open('img/bwresume.pdf', '_blank', 'fullscreen=yes'); return false;">
+                      <button id="black-white" type="button" class="btn btn-primary">Black & White</button>
+                    </a>
+                  </div>
               </div>
           </div>
         </div>
