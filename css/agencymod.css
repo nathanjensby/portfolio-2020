@@ -349,13 +349,9 @@ section h3.section-subheading {
 #projects .portfolio-item .portfolio-caption {
   max-width: 400px;
   margin: 0 auto;
-  background-color: white;
+  background-color: black;
   text-align: center;
   padding: 25px;
-}
-
-.portfolio-caption {
-  background-color: black;
 }
 
 #projects .portfolio-item .portfolio-caption h4 {
