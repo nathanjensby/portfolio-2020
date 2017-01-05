@@ -349,10 +349,15 @@ section h3.section-subheading {
 #projects .portfolio-item .portfolio-caption {
   max-width: 400px;
   margin: 0 auto;
-  background-color: black;
+  background-color: white;
   text-align: center;
   padding: 25px;
 }
+
+.portfolio-caption {
+  background-color: black;
+}
+
 #projects .portfolio-item .portfolio-caption h4 {
   text-transform: none;
   margin: 0;
@@ -684,8 +689,12 @@ ul.social-buttons li a:active {
   padding: 100px 0;
   text-align: center;
   color: black;
+}
+
+.modal-content {
   background-color: #eee;
 }
+
 .portfolio-modal .modal-content h2 {
   margin-bottom: 15px;
   font-size: 3em;
