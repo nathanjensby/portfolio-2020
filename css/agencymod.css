@@ -349,7 +349,7 @@ section h3.section-subheading {
 #projects .portfolio-item .portfolio-caption {
   max-width: 400px;
   margin: 0 auto;
-  background-color: white;
+  background-color: black;
   text-align: center;
   padding: 25px;
 }
@@ -684,6 +684,7 @@ ul.social-buttons li a:active {
   padding: 100px 0;
   text-align: center;
   color: black;
+  background-color: #eee;
 }
 .portfolio-modal .modal-content h2 {
   margin-bottom: 15px;
