@@ -433,7 +433,7 @@ section h3.section-subheading {
   text-align: center;
 }
 .timeline > li .timeline-image h4 {
-  font-size: 10px;
+  font-size: 7px;
   margin-top: 12px;
   line-height: 14px;
 }
@@ -489,7 +489,7 @@ section h3.section-subheading {
     margin-left: -50px;
   }
   .timeline > li .timeline-image h4 {
-    font-size: 13px;
+    font-size: 7px;
     margin-top: 16px;
     line-height: 18px;
   }
