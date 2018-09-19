@@ -12,22 +12,22 @@
         event.preventDefault();
     });
 
-    // Highlight the top nav as scrolling occurs
-    $('body').scrollspy({
-        target: '.navbar-fixed-top',
-        offset: 51
-    });
+    // add affix class to nav
+    $(window).scroll(function() {
+      var scroll = $(window).scrollTop();
+      var nav = $('#mainNav');
+      console.log('scroll: ', scroll);
+      if (scroll >= 100) {
+        nav.addClass('affix');
+      }
+      if (scroll < 100) {
+        nav.removeClass('affix');
+      }
+    })
 
     // Closes the Responsive Menu on Menu Item Click
     $('.navbar-collapse ul li a').click(function(){
             $('.navbar-toggle:visible').click();
     });
-
-    // Offset for Main Navigation
-    $('#mainNav').affix({
-        offset: {
-            top: 100
-        }
-    })
 
 })(jQuery); // End of use strict

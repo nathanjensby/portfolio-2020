@@ -29,9 +29,7 @@
 
 
     <!-- Theme CSS -->
-    <link href="css/grayscale.min.css" rel="stylesheet">
-    <link href="css/agencymod.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link href="css/agency.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -42,10 +40,10 @@
 
 </head>
 
-<body id="page-top" class="index">
+<body id="page-top" class="index" data-spy="scroll" data-target="#bs-example-navbar-collapse-1">
 
     <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-custom fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -61,17 +59,17 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
+                    <li class="nav-item">
+                        <a class="page-scroll nav-link" href="#about">About</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#projects">Projects</a>
+                    <li class="nav-item">
+                        <a class="page-scroll nav-link" href="#projects">Projects</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#resume">Resume</a>
+                    <li class="nav-item">
+                        <a class="page-scroll nav-link" href="#resume">Resume</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                    <li class="nav-item">
+                        <a class="page-scroll nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -84,247 +82,177 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Web Developer || Console Cowboy</div>
+                <div class="intro-lead-in">Front End Developer</div>
                 <div class="intro-heading">Nathan Jensby</div>
                 <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
+                  <i class="fa fa-angle-double-down animated"></i>
                 </a>
             </div>
         </div>
     </header>
 
     <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">Get to know me.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/library.jpg" alt="okstate">
-                            </div>
-                            <div class="timeline-panel" data-aos="fade-right">
-                                <div class="timeline-heading">
-                                    <h4 class="subheading">Loyal and True</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">I graduated from Oklahoma State University with a Bachelor of Arts in English Literature. I credit my analytical thinking and eye for details to my time in Stillwater. After graduation, I moved to Austin, Texas to begin post-grad life.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/imeet.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel" data-aos="fade-left">
-                                <div class="timeline-heading">
-                                    <h4 class="subheading">iMeet/PGi</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">As part of the primary customer support team, I handled basic trouble shooting and escalation for PGi's video conferencing platform, iMeet. This was my introduction to the world of business technology.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/trudys003.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel" data-aos="fade-right">
-                                <div class="timeline-heading">
-                                    <h4 class="subheading">Trudy's</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">It wasn't long after I was hired at Trudy's that I became the head trainer for new expediters and servers. My time at Trudy's helped me develop a strong sense of prioritization and taught me a lot about efficiency.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/homeaway.png" alt="">
-                            </div>
-                            <div class="timeline-panel" data-aos="fade-left">
-                                <div class="timeline-heading">
-                                    <h4 class="subheading">HomeAway</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">I started at HomeAway as a customer support representative on the front lines. I worked my way up as a part of the resolutions team, handling escalated customers. I was promoted to team lead and then to customer support supervisor in early 2016. I was introduced to some HTML and CSS as part of HomeAway's HackAway competition, and started to fall in love with web development.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/genassembly.png" alt="">
-                            </div>
-                            <div class="timeline-panel" data-aos="fade-right">
-                                <div class="timeline-heading">
-                                    <h4 class="subheading">General Assembly</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Once I had decided that I wanted to be a developer, I left HomeAway to pivot my career and pursue this dream. My experience at General Assembly has been incredible and I can't believe how much I've learned through this comprehensive program.</p>
-                                </div>
-                            </div>
-                        </li>
+    <div>
+      <section id="about">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12 text-center">
+                      <h2 class="section-heading">About</h2>
+                      <h3 class="section-subheading text-muted">Get to know me.</h3>
+                  </div>
+              </div>
+              <div class="about-block">
+                <h3>
+                  I've always been enamored with puzzles and games. My childhood was riddled with Rubik's cubes and brain-teasers, so it makes sense that my passion lies in problem solving and making things work. I get excited about learning and finding better ways to do things.
+                </h3>
+                <h3>
+                  I'm currently a Front End Developer for Fjord, creating elegant solutions and powerful experiences for large clients.
+                </h3>
+              </div>
+          </div>
+      </section>
 
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Full Stack
-                                    <br>Web
-                                    <br>Developer</h4>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Grid Section -->
-    <section id="projects" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Projects</h2>
-                    <h3 class="section-subheading text-muted">/ˈpräjˌekts/</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item" data-aos="flip-left">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/myusual.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>myUsual</h4>
-                        <p class="text-muted">List Sharing</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item" data-aos="flip-left">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/sklogo.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>ScoreKeepr</h4>
-                        <p class="text-muted">Mobile App</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item" data-aos="flip-left">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/chuckpreview.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Chuck Norris</h4>
-                        <p class="text-muted">Joke Generator</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item" data-aos="flip-left">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/tictactoepreview.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Tic-Tac-Toe</h4>
-                        <p class="text-muted">Game</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item" data-aos="flip-left">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/myBarCartpreview.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>MyBarCart</h4>
-                        <p class="text-muted">Drinks on me</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Resume Section -->
-    <section id="resume">
-        <div class="container">
-          <div class="row text-center">
-              <div class="col-lg-12 text-center">
-                  <h2 class="section-heading">Resume</h2>
-                  <h3 class="section-subheading text-muted">Click to open</h3>
-                  <div id="resume-content" class="col-lg-12 text-center">
-                    <a onclick="window.open('img/NathanJensbyResume.pdf', '_blank', 'fullscreen=yes'); return false;">
-                    <img class="img-responsive resume" src="img/NathanJensbyResume.png" alt="resume" border="1"/>
-                    </a>
-
-                    <a onclick="window.open('img/bwresume.pdf', '_blank', 'fullscreen=yes'); return false;">
-                      <img class="img-responsive resume" src="img/bwresume.png" alt="black-white-resume" border="1"/>
-                    </a>
+      <!-- Projects Grid Section -->
+      <section id="projects" class="bg-light-gray">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12 text-center">
+                      <h2 class="section-heading">Projects</h2>
+                      <h3 class="section-subheading text-muted">/ˈpräjˌekts/</h3>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-4 col-sm-6 portfolio-item" data-aos="flip-left">
+                      <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                          <div class="portfolio-hover">
+                              <div class="portfolio-hover-content">
+                                  <i class="fa fa-plus fa-3x"></i>
+                              </div>
+                          </div>
+                          <img src="img/portfolio/myusual.png" class="img-responsive" alt="">
+                      </a>
+                      <div class="portfolio-caption">
+                          <h4>myUsual</h4>
+                          <p class="text-muted">List Sharing</p>
+                      </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 portfolio-item" data-aos="flip-left">
+                      <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                          <div class="portfolio-hover">
+                              <div class="portfolio-hover-content">
+                                  <i class="fa fa-plus fa-3x"></i>
+                              </div>
+                          </div>
+                          <img src="img/portfolio/sklogo.png" class="img-responsive" alt="">
+                      </a>
+                      <div class="portfolio-caption">
+                          <h4>ScoreKeepr</h4>
+                          <p class="text-muted">Mobile App</p>
+                      </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 portfolio-item" data-aos="flip-left">
+                      <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                          <div class="portfolio-hover">
+                              <div class="portfolio-hover-content">
+                                  <i class="fa fa-plus fa-3x"></i>
+                              </div>
+                          </div>
+                          <img src="img/portfolio/chuckpreview.png" class="img-responsive" alt="">
+                      </a>
+                      <div class="portfolio-caption">
+                          <h4>Chuck Norris</h4>
+                          <p class="text-muted">Joke Generator</p>
+                      </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 portfolio-item" data-aos="flip-left">
+                      <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                          <div class="portfolio-hover">
+                              <div class="portfolio-hover-content">
+                                  <i class="fa fa-plus fa-3x"></i>
+                              </div>
+                          </div>
+                          <img src="img/portfolio/tictactoepreview.png" class="img-responsive" alt="">
+                      </a>
+                      <div class="portfolio-caption">
+                          <h4>Tic-Tac-Toe</h4>
+                          <p class="text-muted">Game</p>
+                      </div>
+                  </div>
+                  <div class="col-md-4 col-sm-6 portfolio-item" data-aos="flip-left">
+                      <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                          <div class="portfolio-hover">
+                              <div class="portfolio-hover-content">
+                                  <i class="fa fa-plus fa-3x"></i>
+                              </div>
+                          </div>
+                          <img src="img/portfolio/myBarCartpreview.png" class="img-responsive" alt="">
+                      </a>
+                      <div class="portfolio-caption">
+                          <h4>MyBarCart</h4>
+                          <p class="text-muted">Drinks on me</p>
+                      </div>
                   </div>
               </div>
           </div>
-        </div>
-    </section>
+      </section>
 
-
-
-
-    <!-- Contact Section -->
-    <section id="contact" class="bg-light-gray" style="background-image: url('./img/contactbackground.jpg'); padding:100px 0">
-        <div class="container">
-            <div class="row">
+      <!-- Resume Section -->
+      <section id="resume">
+          <div class="container">
+            <div class="row text-center">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact</h2>
-                    <h3 class="section-subheading text-muted" style="color: #222222; margin-bottom: 20px">Let's talk about it.</h3>
-                <div class="headshot">
-                  <img src="./img/Headshot.jpg" alt="Nathan Jensby Headshot">
+                    <h2 class="section-heading">Resume</h2>
+                    <h3 class="section-subheading text-muted">Click to open</h3>
+                    <div id="resume-content" class="col-lg-12 text-center">
+                      <a onclick="window.open('img/yellowresume.pdf', '_blank', 'fullscreen=yes'); return false;">
+                        <img class="img-responsive resume" src="img/yellowresume.png" alt="resume" border="1"/>
+                      </a>
+                      <a onclick="window.open('img/bwresume.pdf', '_blank', 'fullscreen=yes'); return false;">
+                        <img class="img-responsive resume" src="img/bwresume.png" alt="black-white-resume" border="1"/>
+                      </a>
+                    </div>
                 </div>
+            </div>
+          </div>
+      </section>
+
+
+
+
+      <!-- Contact Section -->
+      <section id="contact" class="bg-light-gray" style="background-image: url('./img/contactbackground.jpg'); padding:100px 0">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12 text-center">
+                      <h2 class="section-heading">Contact</h2>
+                      <h3 class="section-subheading text-muted" style="color: #222222; margin-bottom: 20px">Let's talk about it.</h3>
+                  <div class="headshot">
+                    <img src="./img/Headshot.jpg" alt="Nathan Jensby Headshot">
+                  </div>
+                </div>
+                  <div class="col-lg-12 text-center">
+                      <h4 style="color:#222222; margin-bottom:5px">nathan.jensby@gmail.com</h4>
+                  </div>
               </div>
-                <div class="col-lg-12 text-center">
-                    <h4 style="color:#222222; margin-bottom:5px">nathan.jensby@gmail.com</h4>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                      <ul class="social-buttons text-center">
-                          <li data-aos="zoom-in"><a href="https://github.com/nathanjensby" target="_blank"><i class="fa fa-github fa-2x"></i></a>
-                          </li>
-                          <li data-aos="zoom-in"><a href="https://www.linkedin.com/in/nathanjensby
-" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
-                          </li>
-                          <li data-aos="zoom-in"><a href="https://twitter.com/nathjensby" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-                          </li>
-                          <li data-aos="zoom-in"><a href="https://medium.com/@nathan.jensby" target="_blank"><i class="fa fa-medium fa-2x"></i></a>
-                          </li>
-                      </ul>
-                </div>
-            </div>
-            <div class="email"><h3 id="email-address" style="display:none">nathan.jensby@gmail.com</h3></div>
-        </div>
-    </section>
+              <div class="row">
+                  <div class="col-lg-12">
+                        <ul class="social-buttons text-center">
+                            <li data-aos="zoom-in"><a href="https://github.com/nathanjensby" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+                            </li>
+                            <li data-aos="zoom-in"><a href="https://www.linkedin.com/in/nathanjensby
+  " target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+                            </li>
+                            <li data-aos="zoom-in"><a href="https://twitter.com/nathjensby" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+                            </li>
+                            <li data-aos="zoom-in"><a href="https://medium.com/@nathan.jensby" target="_blank"><i class="fa fa-medium fa-2x"></i></a>
+                            </li>
+                        </ul>
+                  </div>
+              </div>
+              <div class="email"><h3 id="email-address" style="display:none">nathan.jensby@gmail.com</h3></div>
+          </div>
+      </section>
+    </div>
 
     <footer>
         <div class="container">
@@ -360,7 +288,7 @@
                 </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
+                        <div class="col-lg-8 offset-lg-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2>myUsual</h2>
@@ -399,7 +327,7 @@
                 </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
+                        <div class="col-lg-8 offset-lg-2">
                             <div class="modal-body">
                               <h2>ScoreKeepr</h2>
                               <p class="item-intro text-muted">a mobile app</p>
@@ -428,7 +356,7 @@
                 </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
+                        <div class="col-lg-8 offset-lg-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2>Chuck Norris Joke Generator</h2>
@@ -458,7 +386,7 @@
                 </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
+                        <div class="col-lg-8 offset-lg-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2>Tic-Tac-Toe</h2>
@@ -488,12 +416,12 @@
                 </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
+                        <div class="col-lg-8 offset-lg-2">
                             <div class="modal-body">
                               <!-- Project Details Go Here -->
                               <h2>MyBarCart</h2>
                               <p class="item-intro text-muted">Coctail Recipes</p>
-                              <img class="img-responsive img-centered" src="img/portfolio/myBarCart.png" alt="">
+                              <img class="img-responsive img-centered" src="img/portfolio/myBarCart.png" alt="" />
                               <p>MyBarCart allows a user to check the ingredients they have currently in their bar cart and recipes will populate as you accumulate at least 3 of the drink's ingredients.  The front end is built in React, and the database is seeded via Rails and deployed through Heroku.</p>
                               <p><a href="http://www.nathanjensby.com/MBC_frontend/" target="_blank" class="btn btn-primary">Launch</a></p>
                               <p><a target="_blank" href="https://github.com/nathanjensby/MBC_frontend"><i class="fa fa-github fa-3x"></i></a></p>
@@ -518,12 +446,12 @@
                 </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
+                        <div class="col-lg-8 offset-lg-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2>Project Name</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="#" alt="">
+                                <img class="img-responsive img-centered" src="#" alt="" />
                                 <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
                                 <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
@@ -552,24 +480,24 @@
     <script src="js/agency.js"></script>
 
     <!-- AOS JS -->
-<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>    <script>
-    AOS.init({
-      duration:1000
-    })
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration:1000
+      })
     </script>
 
     <!-- Google Analytics -->
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-90923108-1', 'auto');
-  ga('send', 'pageview');
+      ga('create', 'UA-90923108-1', 'auto');
+      ga('send', 'pageview');
+    </script>
 
-</script>
-
-</body>
+  </body>
 
 </html>
