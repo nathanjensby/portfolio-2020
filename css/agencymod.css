@@ -4,8 +4,10 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
+  background-color: black;
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 100%;
 }
 .text-muted {
   color: #777777;
@@ -372,7 +374,7 @@ section h3.section-subheading {
     margin: 0 0 30px;
   }
 }
-.timeline {
+/* .timeline {
   list-style: none;
   padding: 0;
   position: relative;
@@ -554,10 +556,12 @@ section h3.section-subheading {
 }
 .team-member p {
   margin-top: 0;
-}
+} */
+
 aside.clients img {
   margin: 50px auto;
 }
+
 section#contact {
   background-color: #222222;
   background-image: url('../img/map-image.png');
